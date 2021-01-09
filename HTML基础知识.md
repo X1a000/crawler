@@ -50,7 +50,8 @@ HTTP1.1新增6种:OPTIONS、PUT、PATCH、DELETE、TRACE、CONNECT
 >8. Content-Type：互联网媒体类型或MIME类型，在HTTP协议消息头中用来表示具体请求中的媒体类型信息，如text/html表示HTML格式，image/gif代表GIF图片，application/json表示JSON类型等。
 
 - 请求体一般承载POST请求中的表单数据，对于GET请求请求体为空  
-- | Content-Type|    提交数据的方式 | 
+
+| Content-Type|    提交数据的方式 | 
 | :--------: | :--------:|
 | application/x-www-form-urlencoded |   表单数据 |
 |multipart/form-data|表单文件上传|
